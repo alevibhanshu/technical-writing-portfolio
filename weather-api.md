@@ -1,41 +1,51 @@
 Weather API Documentation
 
-Overview
+_Overview_
 
 The Weather API allows users to retrieve real-time weather information for a specified city. It provides details such as temperature, weather conditions, and location-based data.
 
-Base URL
+_Base URL_
 https://api.weather.com
-Endpoint
+
+_Endpoint_
 GET /weather
 
 This endpoint retrieves current weather data for a given city.
 
-Request Parameters
-Parameter	Type	Required	Description
-city	string	Yes	Name of the city (e.g., Delhi)
-Request Example
-GET https://api.weather.com/weather?city=Dehradun
+_Query Parameters_
 
-Response Example
+| Parameter | Type   | Required | Description                       |
+| --------- | ------ | -------- | --------------------------------- |
+| city      | string | Yes      | Name of the city (e.g., Dehradun) |
+| api_key   | string | Yes      | API key for authentication        |
+
+
+_Request Example_
+
+GET https://api.weather.com/weather?city=Dehradun&api_key=YOUR_API_KEY
+
+_Response Example_
+
 {
   "city": "Dehradun",
-  "temperature": "25°C",
+  "temperature": 25,
+  "unit": "Celsius",
   "condition": "Cloudy",
-  "humidity": "60%",
-  "wind_speed": "10 km/h"
+  "humidity": 60,
+  "wind_speed": 10
 }
 
-Error Handling
-Status Code	Message	Description
 
-400	Bad Request	Missing or invalid parameters
+_Error Handling_
 
-404	City Not Found	City does not exist in database
+| Status Code | Error Message | Description                   |
+| ----------- | ------------- | ----------------------------- |
+| 400         | Bad Request   | Missing or invalid parameters |
+| 401         | Unauthorized  | Invalid or missing API key    |
+| 404         | Not Found     | City not found                |
+| 500         | Server Error  | Internal server issue         |
 
-500	Server Error	Internal server issue
-
-Authentication (Optional Section – Add for better impression)
+_Authentication_
 
 This API may require an API key for authentication.
 
