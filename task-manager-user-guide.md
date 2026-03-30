@@ -6,19 +6,19 @@ The Task Manager application is a simple productivity tool that helps users crea
 
 2) _Features_
 
-  a. Create new tasks
+  i. Create new tasks
   
-  b. Edit and update tasks
+  ii. Edit and update tasks
   
-  c. Mark tasks as completed
+  iii. Mark tasks as completed
   
-  d. Delete tasks
+  iv. Delete tasks
   
-  e. Set task priority (High, Medium, Low)
+  v. Set task priority (High, Medium, Low)
 
 3) _Getting Started_
 
-  1. Login
+  i. Login:
   
     a. Open the application
     
@@ -26,7 +26,7 @@ The Task Manager application is a simple productivity tool that helps users crea
     
     c. Click Login
 
-  2. Dashboard Overview
+  ii. Dashboard Overview:
   
       After logging in, users are directed to the dashboard, which displays:
  
@@ -38,9 +38,9 @@ The Task Manager application is a simple productivity tool that helps users crea
 
 4) _Creating a Task_
 
-  1. Click on the “Add Task” button
+  i. Click on the “Add Task” button
   
-  2. Enter task details
+  ii. Enter task details
   
     a. Task Name
     
@@ -48,33 +48,34 @@ The Task Manager application is a simple productivity tool that helps users crea
  
     c. Priority
     
-  3. Click Save
+  iii. Click Save
 
 5) _Editing a Task_
 
-  1. Select the task from the list
+    i. Select the task from the list
   
-  2. Click Edit
+    ii. Click Edit
   
-  3. Update the required fields
+    iii. Update the required fields
   
-  4. Click Save
+    iv. Click Save
 
 6) _Marking a Task as Completed_
 
-  1. Click the checkbox next to the task
+  i. Click the checkbox next to the task
   
-  2. Status will change to Completed
+  ii. Status will change to Completed
 
 7) Deleting a Task
 
-  1. Select the task
+  i. Select the task
   
-  2. Click Delete
+  ii. Click Delete
   
-  3. Confirm deletion
+  iii. Confirm deletion
 
 8) _Error handling_
+
 | Scenario        | Message                     |
 | --------------- | --------------------------- |
 | Empty task name | “Task name is required”     |
@@ -82,6 +83,9 @@ The Task Manager application is a simple productivity tool that helps users crea
 | Server issue    | “Unable to process request” |
 
 9) _Notes_
-  1. Ensure all required fields are filled before saving
-  2. Completed tasks can be filtered using the status filter
-  3. Data is saved automatically upon successful submission
+
+  i. Ensure all required fields are filled before saving
+  
+  ii. Completed tasks can be filtered using the status filter
+  
+  iii. Data is saved automatically upon successful submission
