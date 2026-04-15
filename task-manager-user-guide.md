@@ -1,80 +1,61 @@
-Task Manager Application – User Guide
+# Task Manager Application – User Guide
 
-1) _Overview_
+## _Overview_
 
 The Task Manager application is a simple productivity tool that helps users create, manage, and track daily tasks efficiently. It provides features such as task creation, status tracking, and task prioritization.
 
-2) _Features_
+## _Features_
 
-  i. Create new tasks
-  
-  ii. Edit and update tasks
-  
-  iii. Mark tasks as completed
-  
-  iv. Delete tasks
-  
-  v. Set task priority (High, Medium, Low)
+  1. Create new tasks
+  2. Edit and update tasks  
+  3. Mark tasks as completed  
+  4. Delete tasks  
+  5. Set task priority (High, Medium, Low)
 
-3) _Getting Started_
+## _Getting Started_
 
-  i. Login:
+  1. Login:
   
-    a. Open the application
-    
-    b. Enter your username and password
-    
-    c. Click Login
+  - Open the application
+  - Enter your username and password
+  - Click Login
 
-  ii. Dashboard Overview:
+  2. Dashboard Overview:
   
-      After logging in, users are directed to the dashboard, which displays:
- 
-    a. List of all tasks
-    
-    b. Task status (Pending/Completed)
-    
-    c. Priority levels
+  After logging in, users are directed to the dashboard, which displays:
 
-4) _Creating a Task_
+  - List of all tasks
+  - Task status (Pending/Completed)
+  - Priority levels
 
-  i. Click on the “Add Task” button
-  
-  ii. Enter task details
-  
-    a. Task Name
-    
-    b. Description
- 
-    c. Priority
-    
-  iii. Click Save
+## _Creating a Task_
 
-5) _Editing a Task_
+  1) Click on the “Add Task” button
+  2) Enter task details
+  - Task Name
+- Description
+- Priority
+  3) Click Save
 
-    i. Select the task from the list
-  
-    ii. Click Edit
-  
-    iii. Update the required fields
-  
-    iv. Click Save
+## _Editing a Task_
 
-6) _Marking a Task as Completed_
+1) Select the task from the list
+2) Click Edit
+3) Update the required fields
+4) Click Save
 
-  i. Click the checkbox next to the task
-  
-  ii. Status will change to Completed
+## _Marking a Task as Completed_
 
-7) Deleting a Task
+  1) Click the checkbox next to the task
+  2) Status will change to Completed
 
-  i. Select the task
-  
-  ii. Click Delete
-  
-  iii. Confirm deletion
+## Deleting a Task
 
-8) _Error handling_
+  1) Select the task
+  2) Click Delete
+  3) Confirm deletion
+
+## _Error handling_
 
 | Scenario        | Message                     |
 | --------------- | --------------------------- |
@@ -82,10 +63,8 @@ The Task Manager application is a simple productivity tool that helps users crea
 | Invalid input   | “Please enter valid data”   |
 | Server issue    | “Unable to process request” |
 
-9) _Notes_
+## _Notes_
 
-  i. Ensure all required fields are filled before saving
-  
-  ii. Completed tasks can be filtered using the status filter
-  
-  iii. Data is saved automatically upon successful submission
+  1. Ensure all required fields are filled before saving
+  2. Completed tasks can be filtered using the status filter
+  3. Data is saved automatically upon successful submission
